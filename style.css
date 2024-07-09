@@ -1,0 +1,250 @@
+.nav-link {
+    color: orange !important;
+  }
+  .carousel-caption {
+    padding-bottom: 200px;
+    z-index: 2;
+  }
+  .carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .n{
+    letter-spacing: 5px;
+    color: orange;
+  }
+  .m{
+    font-size: xxx-large;
+  }
+  .b{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid orange ;
+    background-color: orange;
+    font-size: 15px;
+  }
+  .b:hover{
+    color: orange;
+    background-color: transparent;
+  }
+  .c{
+    padding: 10px 20px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    color: orange;
+    background-color: transparent;
+    font-size: 15px;
+  }
+  .c:hover{
+    color: white;
+    background-color: orange;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+  .line {
+    border-bottom: 2px solid orange;
+    width: 80px;
+    margin: 0 auto;
+  }
+  .card2{
+    box-shadow: 4px 4px 10px gainsboro;
+    border-radius: 10px;
+    margin-bottom: 150px;
+  }
+  .card-title{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    font-family: serif;
+}
+ 
+.tt{
+    text-align: center;
+    color: darkgray;
+    font-size: larger;
+  }
+  .tt2{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    font-family: emoji;
+  }
+  .btn{
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    margin-left: 66px;
+    border-radius: 20px;
+  }
+  .col{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 44px;
+    margin-left: 130px;
+    margin-right: 130px;
+    /* margin-bottom: 150px; */
+  }
+  .abcd{
+    display: flex;
+    gap: 30px;
+  }
+  .fa-truck-fast{
+    color: orange;
+    border: 2px dotted orange;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    padding: 11px;
+  }
+  .fa-phone-volume{
+    color: orange;
+    border: 2px dotted orange;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    padding: 11px;
+
+  }
+  .fa-right-left{
+    color: orange;
+    border: 2px dotted orange;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    padding: 11px;
+  }
+  .text{
+    font-size: xx-large;
+    font-family: cursive;
+  }
+  .t{
+    margin-top: -13px;
+    font-size: medium;
+    color: darkgray;
+  }
+  .r{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+   }
+  
+  .i{
+    /* display: flex; */
+    position: absolute;
+    top: 27px;
+    left: 99px;
+    font-size: 30px;
+    padding: 10px;
+    border: 10px solid rgb(230, 119, 79);
+    border-radius: 50%;
+    background-color: orange;
+  }
+  .abc span{
+    color: orange;
+    font-size: xxx-large;
+    max-width: 20px;
+    
+  }
+  .abc{
+    padding-left: 80px;
+  }
+  .abc .a{
+    font-size: xxx-large;
+    font-weight: 500;
+  }
+  .container-fulid{
+    display: flex;
+    padding-bottom: 200px;
+   
+  }
+  .tx{
+    width: 600px;
+  }
+  .box{
+    display: flex;
+    padding-bottom: 40px;
+  }
+ .te{
+  /* display: flex; */
+  width: 100px;
+  height: 110px;
+  line-height: 30px;
+  border: 3px solid orange;
+  padding: 6px;
+  margin: 3px;
+  text-align: center;
+}
+.xyz{
+  color: orange;
+  font-size: 40px;
+  font-weight: bold;
+}
+.ab{
+  font-size: 20px;
+}
+
+.img-fluid{
+  margin-left: 100px;
+  filter: drop-shadow(5px 5px 10px orange);
+  border-radius: 20px 0 20px 0;
+}
+.xy{
+  margin-left: 200px;
+}
+.x{
+  margin-left: 200px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.y{
+  margin-left: 200px;
+  width: 500px;
+}
+.btn2{
+  margin-left: 196px;
+  color:white;
+  background-color: orange;
+  border-radius: 20px;
+  border: 5px solid orange;
+}
+.row2{
+  padding-top: 255px;
+    text-align: center;
+}
+.line2 {
+  border-bottom: 2px solid orange;
+  width: 80px;
+  margin: 0 auto;
+}
+.fi{
+  
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  /* background-color: #F5F5F5; */
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.card{
+  margin-top: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
+  border: none !important;
+}
